@@ -1,0 +1,30 @@
+name: Generate Snake
+
+on:
+  # chạy hằng ngày (giờ UTC)
+  schedule:
+    - cron: "0 17 * * *"
+  # cho phép chạy tay từ tab Actions
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Tạo ảnh snake từ contribution của bạn
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: nghias1705
+          # Xuất ra nhiều định dạng/theme nếu thích
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?palette=github-light
+      # Publish các file trong dist/ lên nhánh `output`
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
