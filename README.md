@@ -34,7 +34,7 @@
   <img
     alt="top langs"
     align="left"
-    width="44%"
+    width="45%"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=nghias1705&layout=compact"
   />
 </picture>
