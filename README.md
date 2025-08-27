@@ -17,7 +17,7 @@
   <img
     alt="my stats"
     align="left"
-    width="51%"
+    width="50%"
     src="https://github-readme-stats.vercel.app/api?username=nghias1705&show_icons=true&rank_icon=github"
   />
 </picture>
@@ -34,7 +34,7 @@
   <img
     alt="top langs"
     align="left"
-    width="45%"
+    width="44%"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=nghias1705&layout=compact"
   />
 </picture>
