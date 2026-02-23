@@ -7,11 +7,11 @@
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=nghias1705&show_icons=true&theme=radical&rank_icon=github"
+    srcset="./profile/stats.svg"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=nghias1705&show_icons=true&rank_icon=github"
+    srcset="./profile/stats.svg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   <img
