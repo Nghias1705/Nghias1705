@@ -5,7 +5,7 @@
 </p>
 <img width="98% "src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nghias1705&theme=radical" />
 
-<picture>
+<!-- <picture>
   <source
     srcset="./profile/stats.svg"
     media="(prefers-color-scheme: dark)"
@@ -19,8 +19,8 @@
     align="left"
     width="50%"
     src="./profile/stats.svg"
-  />
-</picture>
+  /> -->
+<!-- </picture>
 
 <picture>
   <source
@@ -37,7 +37,7 @@
     width="45%"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=nghias1705&layout=compact"
   />
-</picture>
+</picture> -->
 
 <br clear="both"/>
 
